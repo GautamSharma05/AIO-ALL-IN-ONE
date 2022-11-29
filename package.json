@@ -1,0 +1,34 @@
+{
+  "name": "aio-all-in-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GautamSharma05/AIO-ALL-IN-ONE.git"
+  },
+  "keywords": [
+    "AIO - ALL IN ONE",
+    "All in one",
+    "Email verification",
+    "Name Verification",
+    "Phone Verification"
+  ],
+  "author": "Gautam Sharma <gautamsharma88540@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GautamSharma05/AIO-ALL-IN-ONE/issues"
+  },
+  "homepage": "https://github.com/GautamSharma05/AIO-ALL-IN-ONE#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
